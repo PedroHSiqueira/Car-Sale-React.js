@@ -27,7 +27,7 @@ function Renderizacao(props) {
 
         <div className="flex items-center gap-14 my-5 ">
           <img src="./heart.png" className="cursor-pointer "/>
-          <button className="bg-zinc-600 p-2 text-slate-50 border-4 border-amber-500 rounded-xl" onClick={() => cardFinanciamento(props)}>Financiamento</button>
+          <button className="bg-zinc-600 p-2 text-slate-50 border-2 border-amber-500 rounded-xl" onClick={() => cardFinanciamento(props)}>Financiamento</button>
           <p>{props.carro.ano}</p>
         </div>
       </section>

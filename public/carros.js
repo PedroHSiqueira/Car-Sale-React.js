@@ -131,4 +131,37 @@ export const dados = [
     interior:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231110/honda-civic-1.8-lxs-16v-flex-4p-manual-wmimagem14050593426.jpg?s=fill&w=1920&h=1440&q=75",
   },
+  {
+    id: 13,
+    modelo: "Cherry Tiggo 8 Pro",
+    subtitulo: "1.5 TCI PLUG-IN HYBRID",
+    preco: 219900,
+    ano: "2022/2023",
+    imagem:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231114/caoa-chery-tiggo-8-pro-1.5-tci-plugin-hybrid-dht-wmimagem17505952224.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231114/caoa-chery-tiggo-8-pro-1.5-tci-plugin-hybrid-dht-wmimagem17490805665.jpg?s=fill&w=1920&h=1440&q=75",
+  },
+  {
+    id: 14,
+    modelo: "Jeep Compass",
+    subtitulo: "2.0 16V FLEX LIMITED",
+    preco: 112890,
+    ano: "2019/2019",
+    imagem:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231117/jeep-compass-2.0-16v-flex-limited-automatico-wmimagem11384677139.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231117/jeep-compass-2.0-16v-flex-limited-automatico-wmimagem11392487742.jpg?s=fill&w=1920&h=1440&q=75",
+  },
+  {
+    id: 15,
+    modelo: "Volkswagen Fusca",
+    subtitulo: "2.0 TSI 16V GASOLINA",
+    preco: 139900,
+    ano: "2012/2013",
+    imagem:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231116/volkswagen-fusca-2.0-tsi-16v-gasolina-2p-automatico-wmimagem23380020442.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231116/volkswagen-fusca-2.0-tsi-16v-gasolina-2p-automatico-wmimagem23380289838.jpg?s=fill&w=1920&h=1440&q=75",
+  },
 ];
