@@ -7,6 +7,8 @@ export const dados = [
     ano: "2018/2019",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202310/20231028/chevrolet-cruze-1.4-turbo-ltz-16v-flex-4p-automatico-wmimagem10132629990.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202310/20231028/chevrolet-cruze-1.4-turbo-ltz-16v-flex-4p-automatico-wmimagem10135404040.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ export const dados = [
     ano: "2017/2018",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202310/20231024/ford-fusion-2.0-titanium-awd-16v-gasolina-4p-automatico-wmimagem1153344852.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202310/20231024/ford-fusion-2.0-titanium-awd-16v-gasolina-4p-automatico-wmimagem11534216425.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 3,
@@ -25,6 +29,8 @@ export const dados = [
     ano: "2022/2022",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231121/bmw-320i-2.0-16v-turbo-flex-m-sport-automatico-wmimagem10130907132.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231121/bmw-320i-2.0-16v-turbo-flex-m-sport-automatico-wmimagem10132651828.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 4,
@@ -34,6 +40,8 @@ export const dados = [
     ano: "2023/2023",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230929/fiat-fastback-1.3-turbo-270-flex-limited-edition-at6-wmimagem09424432422.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230929/fiat-fastback-1.3-turbo-270-flex-limited-edition-at6-wmimagem09424562139.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 5,
@@ -43,6 +51,8 @@ export const dados = [
     ano: "2014/2015",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231110/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem13473671992.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231110/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem13483041160.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 6,
@@ -52,6 +62,8 @@ export const dados = [
     ano: "2015/2016",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202307/20230719/subaru-impreza-2.0-wrx-sedan-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem16280711817.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202307/20230719/subaru-impreza-2.0-wrx-sedan-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem16281078654.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 7,
@@ -61,6 +73,8 @@ export const dados = [
     ano: "2008/2008",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230913/dodge-ram-5.9-2500-slt-4x4-cd-i6-24v-turbo-diesel-4p-automatico-wmimagem0159478685.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230913/dodge-ram-5.9-2500-slt-4x4-cd-i6-24v-turbo-diesel-4p-automatico-wmimagem02010011991.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 8,
@@ -70,6 +84,8 @@ export const dados = [
     ano: "2023/2024",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202310/20231023/toyota-gr-corolla-1.6-turbo-gasolina-circuit-grfour-manual-wmimagem1645090581.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202310/20231023/toyota-gr-corolla-1.6-turbo-gasolina-circuit-grfour-manual-wmimagem16453784562.jpg?s=fill&w=1920&h=1440&q=75",
   },
   {
     id: 9,
@@ -79,5 +95,7 @@ export const dados = [
     ano: "2014/2015",
     imagem:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231118/citroen-ds3-1.6-thp-gasolina-sport-chic-manual-wmimagem13552158115.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231118/citroen-ds3-1.6-thp-gasolina-sport-chic-manual-wmimagem13552334623.jpg?s=fill&w=1920&h=1440&q=75",
   },
 ];
