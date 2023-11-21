@@ -4,10 +4,11 @@ function Renderizacao(props) {
 
   function cardFinanciamento(props){
     Swal.fire({
+      width: 500,
       title: `Financiamento do <br> ${props.carro.modelo}`,
       imageUrl: props.carro.interior,
-      imageWidth: 400,
-      imageHeight: 300,
+      imageWidth: 500,
+      imageHeight: 350,
       text: `Pode ser seu Apartir de 24x de R$${(props.carro.preco / 24).toLocaleString("pt-br", { minimumFractionDigits: 2 })} `,
     });
   }

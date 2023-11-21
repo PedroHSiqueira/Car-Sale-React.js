@@ -98,4 +98,37 @@ export const dados = [
     interior:
       "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231118/citroen-ds3-1.6-thp-gasolina-sport-chic-manual-wmimagem13552334623.jpg?s=fill&w=1920&h=1440&q=75",
   },
+  {
+    id: 10,
+    modelo: "BYD Dolphin",
+    subtitulo: "44,9 KW ELÉTRICO",
+    preco: 149800,
+    ano: "2023/2023",
+    imagem:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202307/20230712/byd-dolphin-449-kw-eletrico-wmimagem14264299534.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202307/20230712/byd-dolphin-449-kw-eletrico-wmimagem14264577627.jpg?s=fill&w=1920&h=1440&q=75",
+  },
+  {
+    id: 11,
+    modelo: "Renault Stepway",
+    subtitulo: "1.0 12V SCE FLEX",
+    preco: 81990,
+    ano: "2023/2023",
+    imagem:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231116/renault-stepway-1.0-12v-sce-flex-zen-manual-wmimagem10511605856.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231116/renault-stepway-1.0-12v-sce-flex-zen-manual-wmimagem10540343480.jpg?s=fill&w=1920&h=1440&q=75",
+  },
+  {
+    id: 12,
+    modelo: "Honda Civic",
+    subtitulo: "1.8 LXS 16V FLEX",
+    preco: 59700,
+    ano: "2013/2014",
+    imagem:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231110/honda-civic-1.8-lxs-16v-flex-4p-manual-wmimagem14050274536.jpg?s=fill&w=1920&h=1440&q=75",
+    interior:
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231110/honda-civic-1.8-lxs-16v-flex-4p-manual-wmimagem14050593426.jpg?s=fill&w=1920&h=1440&q=75",
+  },
 ];
