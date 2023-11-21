@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow_image{
+  @apply shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]
+}
