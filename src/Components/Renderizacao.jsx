@@ -1,7 +1,7 @@
 function Renderizacao(props) {
   return (
     <div className="flex flex-col items-center justify-center">
-      <section className="bg-white w-9/12 flex flex-col items-center rounded-2xl shadow_image" >
+      <section className="bg-white w-11/12 flex flex-col items-center rounded-2xl shadow_image" >
         <img src={props.carro.imagem} alt="carro" className=" rounded-2xl shadow_image " />
 
         <div className="flex items-center gap-14 py-5">
