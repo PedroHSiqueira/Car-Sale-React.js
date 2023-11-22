@@ -2,6 +2,13 @@ import Swal from "sweetalert2";
 
 function Renderizacao(props) {
 
+  function favoritos(){
+    Swal.fire({
+      title: "O veiculo foi adicionado aos Favoritos!",
+      icon: "success"
+    });
+  }
+
   function cardFinanciamento(props){
     Swal.fire({
       width: 500,
@@ -26,7 +33,7 @@ function Renderizacao(props) {
         <p className="text-3xl font-semibold">R$ {props.carro.preco.toLocaleString("pt-br", { minimumFractionDigits: 2 })}</p>
 
         <div className="flex items-center gap-14 my-5 ">
-          <img src="./heart.png" className="cursor-pointer "/>
+          <img src="./heart.png" className="cursor-pointer " onClick={favoritos}/>
           <button className="bg-zinc-600 p-2 text-slate-50 border-2 border-amber-500 rounded-xl" onClick={() => cardFinanciamento(props)}>Financiamento</button>
           <p>{props.carro.ano}</p>
         </div>
