@@ -1,6 +1,6 @@
-import Carros from "./Components/Carros"
-import Rodape from "./Components/Rodape"
-import Titulo from "./Components/Titulo"
+import Carros from "./Pages/Home/Carros";
+import Rodape from "./Components/Rodape";
+import Titulo from "./Components/Titulo";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Carros />
       <Rodape />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
