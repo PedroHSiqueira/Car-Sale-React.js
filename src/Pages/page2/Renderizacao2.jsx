@@ -2,6 +2,7 @@ import Swal from "sweetalert2";
 
 function Renderizacao(props) {
   function favoritos() {
+    props.salvarFavoritos(props.carro.modelo, props.carro.preco);
     Swal.fire({
       title: "O veiculo foi adicionado aos Favoritos!",
       icon: "success",
