@@ -13,6 +13,12 @@ function App() {
     }
   }, []);
 
+  function removerFavoritos(modelo) {
+    const carros2 = carrosFavoritos.filter((carro) => carro.modelo !== modelo);
+    setCarrosFavoritos(carros2);
+    localStorage.setItem("carros", JSON.stringify(carros2));
+  }
+
   function salvarFavoritos(modelo, preco) {
     const carros2 = [...carrosFavoritos];
     carros2.push({ modelo, preco });
@@ -23,7 +29,7 @@ function App() {
   return (
     <div>
       <Titulo carrosFavoritos={carrosFavoritos} />
-      <Carros salvarFavoritos={salvarFavoritos} />
+      <Carros salvarFavoritos={salvarFavoritos} removerFavoritos={removerFavoritos} />
       <Rodape />
     </div>
   );

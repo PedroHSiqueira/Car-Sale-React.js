@@ -11,7 +11,7 @@ function Carros(props) {
   }, []);
 
   const listaCarros = carros.map((carro) => (
-    <Renderizacao key={carro.id} carro={carro} salvarFavoritos={props.salvarFavoritos} />
+    <Renderizacao key={carro.id} carro={carro} salvarFavoritos={props.salvarFavoritos} removerFavoritos={props.removerFavoritos} />
   ));
 
   return (
