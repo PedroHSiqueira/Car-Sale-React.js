@@ -19,7 +19,7 @@ function Carros(props) {
       <h3 className="text-xl font-semibold text-center py-10 Ltablet:text-2xl ">
         Melhores Carros Disponiveis Para Se Compra Agora
       </h3>
-      <div className="grid grid-cols-1 Ltablet:grid-cols-2 desktop:grid-cols-3  mx-10 gap-14">
+      <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3  mx-10 gap-14">
         {listaCarros}
       </div>
 

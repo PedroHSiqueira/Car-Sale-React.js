@@ -46,12 +46,12 @@ function Renderizacao(props) {
       <section className="bg-slate-100 w-11/12 flex flex-col items-center rounded-2xl shadow_image" >
         <img src={props.carro.imagem} alt="carro" className=" rounded-2xl shadow_image " />
 
-        <div className="flex items-center gap-14 py-5">
-          <h2 className="font-semibold text-xl">{props.carro.modelo}</h2>
-          <p className="text-sm">{props.carro.subtitulo}</p>
+        <div className="flex items-center gap-14 py-5 px-2">
+          <h2 className="text-sm font-semibold mobile:text-base Ltablet:text-xl">{props.carro.modelo}</h2>
+          <p className="text-xs mobile:text-sm Ltablet:text-lg">{props.carro.subtitulo}</p>
         </div>
 
-        <p className="text-3xl font-semibold">R$ {props.carro.preco.toLocaleString("pt-br", { minimumFractionDigits: 2 })}</p>
+        <p className="text-xl font-semibold Ltablet:text-2xl desktop:text-3xl">R$ {props.carro.preco.toLocaleString("pt-br", { minimumFractionDigits: 2 })}</p>
 
         <div className="flex items-center gap-14 my-5 ">
           <img src={favoritoIcone} className="cursor-pointer " onClick={() => {
@@ -59,7 +59,7 @@ function Renderizacao(props) {
             favoritos();
           }}/>
           <button className="bg-zinc-600 p-2 text-slate-50 border-2 border-amber-500 rounded-xl" onClick={() => cardFinanciamento(props)}>Financiamento</button>
-          <p>{props.carro.ano}</p>
+          <p className="hidden Ltablet:block ">{props.carro.ano}</p>
         </div>
       </section>
     </div>
